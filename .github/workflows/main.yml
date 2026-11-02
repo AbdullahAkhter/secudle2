@@ -1,0 +1,10 @@
+name: sc
+on: 
+  schedule:
+    - cron: "5 12 * * *"
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: greeting
+        run: eco "hhhhhjjjhhjhjhj"
