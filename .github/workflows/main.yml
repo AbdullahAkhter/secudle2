@@ -1,7 +1,7 @@
 name: sc
 on: 
   schedule:
-    - cron: "5 12 * * *"
+    - cron: "12 12 * * *"
 jobs:
   demo:
     runs-on: ubuntu-latest
