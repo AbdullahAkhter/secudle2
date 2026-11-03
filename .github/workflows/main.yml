@@ -1,7 +1,7 @@
 name: Abdullah
 on: 
  schedule:
-   - cron: "3 5 * * *"
+   - cron: "18 5 * * *"
 jobs:
   demo:
     runs-on: ubuntu-latest
