@@ -1,10 +1,11 @@
-name: sc
+name: Abdullah
 on: 
-  schedule:
-    - cron: "12 12 * * *"
+ schedule:
+   - cron: "3 5 * * *"
 jobs:
   demo:
     runs-on: ubuntu-latest
     steps:
       - name: greeting
-        run: eco "hhhhhjjjhhjhjhj"
+        run:  echo"dhdhhdhdh"
+   
